@@ -60,4 +60,4 @@ Or press the reset button.
 
 For more information and advanced usage, refer to the following resources:
 - [MCUboot Project](https://github.com/mcu-tools/mcuboot)
-- [Contact support from NuCode](mailto:nghia.huu@easypcb.vn)
+- [Contact support from NuCode](mailto:info@nucode.co.kr)

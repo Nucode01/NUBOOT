@@ -52,8 +52,11 @@ Follow these steps to program your firmware using NuBoot.
 ### 1. 🛠️ Prepare Compatible Firmware
 Build the application using the following command:
 ```sh
-west build -b $BOARD_NAME -p -- -DCONFIG_BOOTLOADER_MCUBOOT=y
+west build -b nu40_b_dev02 -p -- -DCONFIG_BOOTLOADER_MCUBOOT=y
 ```
+
+> **Note**: If you encounter the error `No board named 'nu40_b_dev02' found`, please add the `nu40_b_dev02` devicetree file to your installed NCS by [following the instructions in this link](https://github.com/Nucode01/NU40_Devkit-devicetree).
+
 
 ### 2. 🔄 Enter Recovery Mode
 - Connect the board to your computer via USB.
@@ -89,5 +92,5 @@ Or press the reset button.
 
 For more information and advanced usage, refer to the following resources:
 - [MCUboot Project](https://github.com/mcu-tools/mcuboot)
-- [Contact support from Nucode](mailto:nghia.huu@easypcb.vn)
+- [Contact support from Nucode](mailto:info@nucode.co.kr)
 
