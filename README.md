@@ -16,8 +16,7 @@ NuBoot is a highly efficient and lightweight bootloader derived from MCUboot, op
 
 ## 🔥 Bootloader Flashing Guide
 
-Instructions for flashing the bootloader are available in the `guidelines` folder. 
-Each guide is tailored to the specific board it supports.
+Instructions for flashing the bootloader are available in the [guidelines](./guidelines) folder. Each guide is tailored to the specific board it supports.
 
 ## 💻 Firmware Programming with NuBoot
 
@@ -61,9 +60,4 @@ Or press the reset button.
 
 For more information and advanced usage, refer to the following resources:
 - [MCUboot Project](https://github.com/mcu-tools/mcuboot)
-- [mynewt-mcumgr](https://github.com/apache/mynewt-mcumgr)
-- [nRF SDK](https://github.com/nrfconnect/sdk-nrf)
-
-## 🧑‍🤝‍🧑 Support
-
-For more details, support, or troubleshooting, please contact [huu.nghia@easypcb.vn](mailto:huu.nghia@easypcb.vn).
+- [Contact support from NuCode](mailto:nghia.huu@easypcb.vn)
